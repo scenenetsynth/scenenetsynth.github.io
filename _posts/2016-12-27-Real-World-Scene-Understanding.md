@@ -23,8 +23,13 @@ for each pixel do
 	compute ray r for that pixel
 	for each object O in the scene do
 		if Intersects(r,O)  & nearest intersection then
-			record intersection distance and object colour
+			save intersection distance 
+			and object colour
 	set pixel colour to nearest object colour
 ~~~
+
+difference between ray tracing and ray casting
+
+difference between ray tracing and photon mapping
 
 http://marctenbosch.com/photon/

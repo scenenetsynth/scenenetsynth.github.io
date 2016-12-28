@@ -7,9 +7,9 @@ Last month saw  celebrated release of OpenAI universe, DeepMindLabs and TorchCra
 * How such images are going to be useful?
 
 
-##What is SceneNet?
+#What is SceneNet?
 
-##What is photon mapping?
+#What is photon mapping?
 When light reaches a surface, it will bounce or get transmitted in a way that is dependent on the surface: given an incoming light direction and wave length, it is possible to determine the amount of light received in any outgoing direction. This mapping is called the surface's BRDF (Bidirectional Reflectance Distribution Function). It assumes the ray will come out of the same point it reached the surface (no successions of micro bounces caused it to leave the surface at another point).
 
 In traditional backwards ray tracing it is not practical to simulate diffuse bounces (when the ray leaves the surface in a random direction), simply because the lights rays are traced backwards (from the eye to the light). This makes ray tracing limited in the images it can produce. Any effect that involves a diffuse bounce before the light reaches the eye is not possible in standard ray tracing. Light rays have to be sent from both the eye and the light.
@@ -20,7 +20,7 @@ Photon mapping is an elegant way to solve this: before any standard raytracing i
 for each pixel do
 	compute ray for that pixel
 	for each object in the scene do
-		if ray interesects objects and is the nearest intersection so far then
+		if ray interesects objects & nearest intersection so far then
 		record intersection distance and object colour
 		
 	set pixel colour to nearest object colour

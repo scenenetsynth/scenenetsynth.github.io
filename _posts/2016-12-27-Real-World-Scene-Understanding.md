@@ -34,6 +34,14 @@ You can specify an inline MathJax equation like so
 
  <img src="https://latex.codecogs.com/gif.latex?$x^2&space;&plus;&space;y^2&space;=&space;z^2$" title="$x^2 + y^2 = z^2$" />
 
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
+
 difference between ray tracing and ray casting
 
 difference between ray tracing and photon mapping

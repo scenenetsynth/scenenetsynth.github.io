@@ -22,9 +22,8 @@ Photon mapping is an elegant way to solve this: before any standard raytracing i
 for each pixel do
 	compute ray r for that pixel
 	for each object O in the scene do
-		if Intersects(r,O)  & nearest intersection so far then
+		if Intersects(r,O)  & nearest intersection then
 			record intersection distance and object colour
-		
 	set pixel colour to nearest object colour
 ~~~
 

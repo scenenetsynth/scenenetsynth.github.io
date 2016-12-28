@@ -7,10 +7,10 @@ Last month saw  celebrated release of OpenAI universe, DeepMindLabs and TorchCra
 * How such images are going to be useful?
 
 
-# What is SceneNet?
+## What is SceneNet?
 
 
-# What is photon mapping?
+## What is photon mapping?
 
 When light reaches a surface, it will bounce or get transmitted in a way that is dependent on the surface: given an incoming light direction and wave length, it is possible to determine the amount of light received in any outgoing direction. This mapping is called the surface's BRDF (Bidirectional Reflectance Distribution Function). It assumes the ray will come out of the same point it reached the surface (no successions of micro bounces caused it to leave the surface at another point).
 
@@ -28,3 +28,5 @@ for each pixel do
 		
 	set pixel colour to nearest object colour
 ~~~
+
+http://marctenbosch.com/photon/

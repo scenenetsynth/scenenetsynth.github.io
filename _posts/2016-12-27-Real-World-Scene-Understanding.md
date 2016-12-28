@@ -34,9 +34,6 @@ You can specify an inline MathJax equation like so  <img src="https://latex.code
 
 $$x^2 + z^4 = k^5$$
 
-Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
-\\[ \frac{1}{n^{2}} \\]
-
 difference between ray tracing and ray casting
 
 difference between ray tracing and photon mapping

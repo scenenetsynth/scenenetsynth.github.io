@@ -30,6 +30,8 @@ for each pixel do
 
 diffuse interreflections are not handled by ray tracer.
 
+Hello I'm here.
+
 $$L_i = L_{i,e} + \sum_{j} c_j L_j F_{i,j} $$
 
 $$

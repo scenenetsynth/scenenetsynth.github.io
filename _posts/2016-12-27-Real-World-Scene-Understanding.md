@@ -28,6 +28,26 @@ for each pixel do
 	set pixel colour to nearest object colour
 ~~~
 
+diffuse interreflections are not handled by ray tracer.
+
+$$L_i = L_{i,e} + \sum_{j} c_j L_j F_{i,j} $$
+
+$$
+ A=\left(\begin{array}{c|c} 
+ a_{11} & a_{12} \\ \hline 
+ a_{21} & a_{22} 
+ \end{array}\right) 
+$$
+
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
+
+
 difference between ray tracing and ray casting
 
 difference between ray tracing and photon mapping

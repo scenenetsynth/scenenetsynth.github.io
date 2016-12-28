@@ -1,3 +1,11 @@
+<head>
+...
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+...
+</head>
+
 Last month saw  celebrated release of OpenAI universe, DeepMindLabs and TorchCraft from OpenAI, DeepMind and Facebook AI Research (FAIR). All of them are heavily investing on synthetic environments to develop and understand general intelligence systems that are on par or able to beat humans in such settings. Synthetic and gaming environments are appealing, with interest galvanised by the pioneering work of DeepMind in 2014, as they allow to factor out any chaos which might be present in the real world and provide simplified rulebook to interact, navigate and play. Moreover, built with a reward in the form of success or failure upon completing a task, they provide a natural way to measure and quantify performance and in a long-term intelligence, something that is a lot harder to do in real world. However, the hope is that experiments in synthetic environments will enlighten us to develop systems.
 
 
@@ -31,6 +39,11 @@ for each pixel do
 diffuse interreflections are not handled by ray tracer.
 
 You can specify an inline MathJax equation like so  <img src="https://latex.codecogs.com/gif.latex?$x^2&space;&plus;&space;y^2&space;=&space;z^2$" title="$x^2 + y^2 = z^2$" />
+
+$$x^2 + z^4 = k^5$$
+
+Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
+\\[ \frac{1}{n^{2}} \\]
 
 difference between ray tracing and ray casting
 

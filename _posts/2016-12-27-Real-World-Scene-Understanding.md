@@ -34,6 +34,14 @@ You can specify an inline MathJax equation like so $x^2 + z^4 = k^5$
 
 $$L_i = L_{i,e} + \sum_{j} c_j L_j F_{i,j}$$
 
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
+
 difference between ray tracing and ray casting
 
 difference between ray tracing and photon mapping

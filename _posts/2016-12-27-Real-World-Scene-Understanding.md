@@ -30,9 +30,9 @@ for each pixel do
 
 diffuse interreflections are not handled by ray tracer.
 
-You can specify an inline MathJax equation like so  <img src="https://latex.codecogs.com/gif.latex?$x^2&space;&plus;&space;y^2&space;=&space;z^2$" title="$x^2 + y^2 = z^2$" />
+You can specify an inline MathJax equation like so $x^2 + z^4 = k^5$
 
-$$x^2 + z^4 = k^5$$
+$$L_i = L_{i,e} + \sum_{j} c_j L_j F_{i,j}$$
 
 difference between ray tracing and ray casting
 

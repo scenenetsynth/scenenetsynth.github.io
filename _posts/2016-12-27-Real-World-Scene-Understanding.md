@@ -32,7 +32,7 @@ diffuse interreflections are not handled by ray tracer.
 
 You can specify an inline MathJax equation like so $x^2+y^2=z^2$
 
-L_i = L_{i,e} + \sum_{j} c_j L_j F_{i,j} 
+$$ L_i = L_{i,e} + \sum_{j} c_j L_j F_{i,j} $$
 
  A=\left(\begin{array}{c|c} 
  a_{11} & a_{12} \\ \hline 

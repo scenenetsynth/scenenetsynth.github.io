@@ -32,7 +32,7 @@ diffuse interreflections are not handled by ray tracer.
 
 Hello I'm here.
 
-L_i = L_{i,e} + \sum_{j} c_j L_j F_{i,j} 
+$$$ L_i = L_{i,e} + \sum_{j} c_j L_j F_{i,j} 
 
  A=\left(\begin{array}{c|c} 
  a_{11} & a_{12} \\ \hline 
